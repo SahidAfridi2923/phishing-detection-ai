@@ -1,0 +1,250 @@
+1️⃣ What is Phishing?
+
+Answer:
+Phishing is a cyber attack where hackers create fake websites that look like real websites to steal user information like passwords, bank details, or personal data.
+
+Example: Fake login pages that look like Google or PayPal.
+
+
+
+2️⃣ What is the Aim of Your Project?
+
+Answer:
+The aim of this project is to detect whether a website URL is safe or phishing and warn the user before they open the fake website.
+
+
+
+3️⃣ Why is Phishing Dangerous?
+
+Answer:
+Phishing can steal user passwords, money, and personal information. It can also cause financial loss and identity theft.
+
+
+
+4️⃣ What Technology Did You Use?
+
+Answer:
+
+We used:
+
+Python for programming
+
+Flask to create the web application
+
+TensorFlow to build the deep learning model
+
+HTML and CSS to design the web page.
+
+
+
+5️⃣ How Does Your System Work?
+
+Answer:
+
+User enters a website URL.
+
+The system sends the URL to the model.
+
+The model checks the URL patterns.
+
+The system shows Safe or Phishing result with a confidence score.
+
+
+
+6️⃣ What is a URL?
+
+Answer:
+A URL is the address of a website on the internet.
+
+Example:
+
+https://www.google.com
+
+
+
+7️⃣ What is Machine Learning?
+
+Answer:
+Machine learning is a technology where computers learn patterns from data and make predictions without being programmed for every rule.
+
+
+
+8️⃣ Why Did You Use Deep Learning?
+
+Answer:
+Deep learning helps detect complex phishing patterns in URLs and gives more accurate results.
+
+
+
+9️⃣ What Dataset Did You Use?
+
+Answer:
+We used a dataset that contains many URLs labeled as phishing or legitimate to train the model.
+
+
+
+🔟 What Is the Output of Your System?
+
+Answer:
+The system shows:
+
+URL status (Safe or Phishing)
+
+AI confidence score.
+
+
+
+1️⃣1️⃣ What Are the Limitations?
+
+Answer:
+If attackers create completely new phishing techniques, the model may need more training data to detect them.
+
+
+
+1️⃣2️⃣ What Is the Future Improvement?
+
+Answer:
+
+Future improvements:
+
+Browser extension for real-time detection
+
+Email phishing detection
+
+More advanced deep learning models.
+
+
+
+
+1️⃣3️⃣ What is a Phishing Website?
+
+Answer:
+A phishing website is a fake website that looks like a real website and tries to steal user information like login details or bank details.
+
+
+
+
+1️⃣4️⃣ What is a Legitimate Website?
+
+Answer:
+A legitimate website is a real and trusted website that belongs to a company or organization.
+
+Example: Google or Amazon.
+
+
+
+
+1️⃣5️⃣ What is a Dataset?
+
+Answer:
+A dataset is a collection of data used to train the machine learning model.
+
+In this project, the dataset contains many URLs labeled as phishing or safe.
+
+
+
+
+1️⃣6️⃣ What is Model Training?
+
+Answer:
+Model training is the process where the machine learning model learns patterns from the dataset.
+
+After training, the model can predict whether a URL is phishing or legitimate.
+
+
+
+1️⃣7️⃣ What is Prediction?
+
+Answer:
+Prediction is the result given by the model after analyzing the URL.
+
+The result can be:
+
+Safe website
+
+Phishing website
+
+
+
+
+1️⃣8️⃣ What is Accuracy?
+
+Answer:
+Accuracy shows how correct the model predictions are.
+
+Higher accuracy means the model detects phishing websites better.
+
+
+
+
+1️⃣9️⃣ What is Confidence Score?
+
+Answer:
+Confidence score shows how sure the model is about its prediction.
+
+Example:
+
+Safe Website
+Confidence: 92%
+
+
+
+
+2️⃣0️⃣ What Is Flask Used For?
+
+Answer:
+Flask is used to create the web interface where the user can enter the URL and see the result.
+
+
+
+2️⃣1️⃣ What Is TensorFlow Used For?
+
+Answer:
+TensorFlow is used to build and run the deep learning model that detects phishing URLs.
+
+
+
+2️⃣2️⃣ What Happens When User Enters a URL?
+
+Answer:
+
+The URL is sent to the system
+
+The model analyzes it
+
+The model predicts phishing or safe
+
+The result is shown on the webpage
+
+
+
+
+2️⃣3️⃣ What Are Some Signs of Phishing URLs?
+
+Answer:
+
+Phishing URLs may have:
+
+Long domain names
+
+Spelling mistakes
+
+Extra symbols or numbers
+
+Suspicious domain extensions.
+
+
+
+
+2️⃣4️⃣ Why Did You Use Python?
+
+Answer:
+Python is easy to use and has many libraries for machine learning and web development.
+
+
+
+
+2️⃣5️⃣ Can This System Be Used in Real Life?
+
+Answer:
+Yes. This system can be integrated into browsers, email filters, or security software to detect phishing websites in real time.

@@ -1,0 +1,15 @@
+LEGITIMATE WEBSITES (SAFE) 
+
+https://www.google.com 
+https://www.amazon.com
+https://www.facebook.com 
+https://www.netflix.com 
+https://www.paypal.com
+
+PHISHING-STYLE EXAMPLE URLS (FOR EDUCATIONAL/TESTING)
+
+http://paypal-secure-login.com
+http://facebook-security-check.net
+http://google-account-verification.xyz 
+http://amazon-login-update.com
+http://netflix-billing-confirmation.net

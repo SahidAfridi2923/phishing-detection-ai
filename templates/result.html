@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Detection Result</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🛡️ URL Security Scan</h1>
+
+<p class="label">Scanned URL</p>
+
+<p class="url">{{ url }}</p>
+
+<div class="result-box">
+
+<h2 class="prediction">{{ result }}</h2>
+
+<p class="meaning">{{ meaning }}</p>
+
+</div>
+
+<div class="confidence-section">
+
+<p class="confidence-text">AI Confidence Score</p>
+
+<div class="progress-bar">
+
+<div class="progress" id="progressBar"></div>
+
+</div>
+
+<p class="confidence-value">{{ confidence }}%</p>
+
+</div>
+
+<a href="/" class="scan-btn">🔎 Scan Another URL</a>
+
+</div>
+
+<script>
+
+let confidence = {{ confidence }};
+let bar = document.getElementById("progressBar");
+
+setTimeout(function(){
+    bar.style.width = confidence + "%";
+}, 300);
+
+</script>
+
+</body>
+</html>

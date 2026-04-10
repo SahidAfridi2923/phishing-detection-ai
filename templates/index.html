@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing URL Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🛡️ AI Phishing URL Detector</h1>
+
+    <form action="/predict" method="POST" enctype="multipart/form-data" onsubmit="showLoading()">
+
+        <input type="text" name="url" placeholder="Enter Website URL..." required>
+
+        <br><br>
+
+        <label style="color:white;">Upload Screenshot (Optional)</label>
+        <br><br>
+
+        <input type="file" name="image" accept="image/*">
+
+        <br><br>
+
+        <button id="scanBtn">Scan URL</button>
+
+    </form>
+
+</div>
+
+<script>
+function showLoading(){
+    document.getElementById("scanBtn").innerText = "🔍 Scanning...";
+}
+</script>
+
+</body>
+</html>
