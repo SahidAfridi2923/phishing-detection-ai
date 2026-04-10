@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>Phishing URL Detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
@@ -15,14 +17,11 @@
 
         <input type="text" name="url" placeholder="Enter Website URL..." required>
 
-        <br><br>
+        <br>
 
-        <label style="color:white;">Upload Screenshot (Optional)</label>
-        <br><br>
+        <label>Upload Screenshot (Optional)</label>
 
         <input type="file" name="image" accept="image/*">
-
-        <br><br>
 
         <button id="scanBtn">Scan URL</button>
 
