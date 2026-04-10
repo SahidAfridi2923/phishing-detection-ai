@@ -2,8 +2,11 @@
 <html>
 <head>
     <title>Phishing URL Detection</title>
+
+    <!-- Responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
@@ -15,23 +18,32 @@
 
     <form action="/predict" method="POST" enctype="multipart/form-data" onsubmit="showLoading()">
 
+        <!-- URL -->
         <input type="text" name="url" placeholder="Enter Website URL..." required>
 
-        <br>
+        <!-- Upload Label -->
+        <label class="upload-label">Upload Screenshot (Optional)</label>
 
-        <label>Upload Screenshot (Optional)</label>
-
+        <!-- File Input -->
         <input type="file" name="image" accept="image/*">
 
-        <button id="scanBtn">Scan URL</button>
+        <!-- Button -->
+        <button id="scanBtn">🚀 Scan URL</button>
 
     </form>
+
+    <!-- Loading -->
+    <p id="loadingText" class="loading-text">🔍 Analyzing... Please wait</p>
 
 </div>
 
 <script>
 function showLoading(){
-    document.getElementById("scanBtn").innerText = "🔍 Scanning...";
+    let btn = document.getElementById("scanBtn");
+    btn.innerText = "🔍 Scanning...";
+    btn.disabled = true;
+
+    document.getElementById("loadingText").style.display = "block";
 }
 </script>
 
